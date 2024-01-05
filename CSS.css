@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: lightskyblue;
+}
+h1{
+    color:white;
+    font-size: 32px;
+}
+html{
+    scroll-behavior: smooth;
+}
+img.MyPicture{
+    width: 220px;
+    height: 220px;
+    transform: scale(1.15);
+    border-radius: 150px;
+    border: 5px solid;
+    padding: 10px;
+    background-color: tomato;
+    margin: 20px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+img.MyPicture:hover{
+    transform: scale(1.22);  
+}
+hr{
+    border-color: black;
+    padding: 0.7px;
+    background-color: black;
+    border-radius: 10px;
+}
+nav,ul.navLinks{
+    display: flex;
+    justify-content:space-between;
+}
+nav{
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+}
+ul.navLinks{
+    gap: 19px;
+    margin-right: 19px;
+    list-style: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: cyan;
+    transition: all 0.2s ;
+}
+a:hover{
+    color: lime;
+    letter-spacing: 1px;
+}
+a:active{
+    color: green;
+}
+section.profile{
+    display: flex;
+    padding-top: 20vh;
+    justify-content: center;
+    height: 60vh;
+}
+div.img_container{
+    display: flex;
+}
+div.profileText{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+div.profileText p{
+    margin: 7px;
+    text-align: center;
+    max-width: 450px;
+}
+a.contactlink{
+    color: blue;
+}
+a.contactlink:hover{
+    color: darkgreen;
+}
+table{
+    text-align: center;
+    background-color: black;
+    border-color: black;
+    border-radius: 5px;
+    padding: 2px;
+}
+td{
+    background-color: lightgreen;
+    
+}
+th{
+    background-color: green;
+    padding: 5px;
+}
+a.top{
+    position: absolute;
+    border: 2px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: gray;
+    padding-right: 3px;
+    right: 0%;
+    color: #000;
+    justify-content: flex-end;
+}
+a.top:hover{
+    color: darkred;
+    transform: scale(1.1);
+    right: 7px;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    color: darkslategrey;
+    font-size: 22px;
+}
