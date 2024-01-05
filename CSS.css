@@ -123,3 +123,27 @@ footer{
     color: darkslategrey;
     font-size: 22px;
 }
+@media only screen and (max-width: 600px) {
+    nav,section.profile,div.profileText,div.img_container{
+        display: block;
+    }
+    nav{
+        padding-left: 10px;
+    }
+    div.img_container{
+        margin: 2px;
+        text-align: center;
+    }
+    h1,p.profileText{
+        display: block;
+        text-align: center;
+
+    }
+    div.profileText{
+        margin: 2px;
+    }
+    section.profile{
+        padding-top: 8vh;
+        height: 80vh;
+    }
+}
