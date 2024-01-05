@@ -146,4 +146,7 @@ footer{
         padding-top: 8vh;
         height: 80vh;
     }
+    .top{
+        padding-left: 3px;
+    }
 }
