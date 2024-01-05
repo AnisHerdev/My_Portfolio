@@ -12,4 +12,14 @@ else
     else
     age.innerHTML = time.getFullYear()-2005-1;
 }
-
+function changeText(){
+    let width = window.innerWidth;
+    let top = document.getElementById('up');
+    if(width<600){
+        top.innerHTML=' ';
+    }
+    else
+        top.innerHTML='Go to top';
+}
+changeText();
+window.addEventListener('resize',changeText);
