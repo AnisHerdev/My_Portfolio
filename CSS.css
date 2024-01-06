@@ -118,8 +118,8 @@ a.top:hover{
     right: 8px;
 }
 img.flickpicks{
-    margin: 12px;
     width: 50%;
+    margin: 12px;
     border: 3px solid black;
     border-radius: 10px;
 }
